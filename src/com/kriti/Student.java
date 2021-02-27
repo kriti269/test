@@ -174,28 +174,28 @@ public class Student
     }
 
     public void calculateGrade(){
-        if(totalMarks>=95 && totalMarks<=100){
+        if(percentage>=95 && percentage<=100){
             setGrade("A+");
         }
-        else if(totalMarks>=90){
+        else if(percentage>=90){
             setGrade("A");
         }
-        else if(totalMarks>=85){
+        else if(percentage>=85){
             setGrade("A-");
         }
-        else if(totalMarks>=80){
+        else if(percentage>=80){
             setGrade("B+");
         }
-        else if(totalMarks>=70){
+        else if(percentage>=70){
             setGrade("B");
         }
-        else if(totalMarks>=60){
+        else if(percentage>=60){
             setGrade("C");
         }
-        else if(totalMarks>=50){
+        else if(percentage>=50){
             setGrade("D");
         }
-        else if(totalMarks<50){
+        else if(percentage<50){
             setGrade("F");
         }
     }
